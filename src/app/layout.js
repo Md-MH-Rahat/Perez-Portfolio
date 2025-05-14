@@ -1,6 +1,24 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Syne, Oswald, Montserrat} from "next/font/google";
 import "./globals.css";
-import NavBar from "@/components/NavBar";
+
+import NavBarMain from "@/components/Navbar/NavbarMain";
+import FooterMain from "@/components/Footer/FooterMain";
+import ClientNavbar from "@/components/Navbar/ClientNavBar";
+
+const montserrat = Montserrat ({
+  variable: "--font-montserrat",
+  subsets: ["latin"],
+});
+
+const syne = Syne ({
+  variable: "--font-syne",
+  subsets: ["latin"],
+});
+
+const oswald = Oswald({
+  variable: "--font-Oswald",
+  subsets: ["latin"],
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,10 +39,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable} ${syne.variable} ${oswald.variable} antialiased`}
       >
-        <NavBar/>
-        {children}
+        <ClientNavbar />
+          {children}
+        <FooterMain/>
       </body>
     </html>
   );

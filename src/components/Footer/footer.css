@@ -1,0 +1,15 @@
+.aboutsun{
+  position: relative;
+}
+
+.aboutsun::before{
+  content: "";
+  background: #FFB646;
+  position: absolute;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  left: -1px;
+  top: 9px;
+  z-index: 1;
+}

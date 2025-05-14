@@ -1,0 +1,57 @@
+.sun{
+  position: relative;
+}
+
+.sun::before{
+  content: "";
+  background: #FFB646;
+  position: absolute;
+  border-radius: 100%;
+  width: 111px;
+  height: 112px;
+  left: -17px;
+  top: -17px;
+  z-index: -1;
+}
+
+
+.rawsvg{
+    background: #FFB646;
+    width: 100px;
+    height: 100px;
+}
+
+
+.aboutsun2{
+  position: relative;
+}
+
+.aboutsun2::before{
+  content: "";
+  background: #FFB646;
+  position: absolute;
+  border-radius: 100%;
+  width: 64px;
+  height: 64px;
+  left: 106px;
+  top: 7px;
+  z-index: -1;
+}
+
+
+.axtra{
+  position: relative;
+}
+
+.axtra::before{
+  content: "";
+  background: #FFB646;
+  position: absolute;
+  border-radius: 100%;
+  width: 8px;
+  height: 8px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+}

@@ -1,0 +1,15 @@
+.consun{
+  position: relative;
+}
+
+.consun::before{
+  content: "";
+  background: #FFB646;
+  position: absolute;
+  border-radius: 100%;
+  width: 64px;
+  height: 64px;
+  left: -6px;
+  top: 4px;
+  z-index: -1;
+}
