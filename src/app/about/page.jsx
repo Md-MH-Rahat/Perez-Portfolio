@@ -33,7 +33,7 @@ const page = () => {
       </section>
       {/* about me sec end */}
       {/* My vision sec start */}
-      <section>
+      <section className='bg-white'>
         <div className='container grid grid-cols-2 justify-between'>
           <div className='w-[526px]'>
             <h2 className='font-syne font-bold text-[64px] pt-[120px] pb-[24px]'>My vision is to create happy my clients</h2>
@@ -107,7 +107,7 @@ const page = () => {
 
       {/* Brand sec start */}
 
-        <section className='container pb-[120px]'>
+        <section className='container pb-[120px] bg-white'>
           <div className='py-10 border-b-[1px] border-t-[1px] border-[#0808081A]'>
             <Brand/>
           </div>

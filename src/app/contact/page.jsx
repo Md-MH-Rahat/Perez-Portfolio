@@ -33,7 +33,7 @@ export default function page() {
   };
 
   return (
-    <section className=" pt-20 pb-[120px]">
+    <section className=" pt-20 pb-[120px] bg-white">
       <div className="container mx-auto">
         <div className="grid grid-cols-12 gap-6">
           {/* Left Column - Contact Info */}

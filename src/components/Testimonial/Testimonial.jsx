@@ -11,7 +11,7 @@ import "@/components/Testimonial/testimonial.css"
 
 const Testimonial = () => {
   return (
-    <div className='px-8 xl:pr-0 xl:pl-[4%] 2xl:pl-[6%] 3xl:pl-[17%] py-[120px]'>
+    <div className='px-8 xl:pr-0 xl:pl-[4%] 2xl:pl-[6%] 3xl:pl-[17%] py-[120px] bg-white'>
       <div className='grid grid-cols-2'>
       <div className='pl-[250px]'>
         <p className='font-syne font-bold text-[20px] leading-7 text-[#FF9330]'>Testimonial</p>

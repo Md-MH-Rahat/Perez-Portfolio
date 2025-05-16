@@ -10,7 +10,7 @@ import project7 from '@/app/project/Image/project7.png'
 
 const page = () => {
   return (
-    <section className='pt-20 pb-[120px]'>
+    <section className='pt-20 pb-[120px] bg-white'>
   <div className="container">
     <div>
       <div className="text-center pb-12">

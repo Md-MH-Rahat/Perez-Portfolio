@@ -15,7 +15,7 @@ import ticket from '@/components/Image/ticket.png';
 import blackphone from '@/components/Image/blackphone.png';
 import interaction from '@/components/Image/interaction.png';
 import about4 from '@/components/Image/about4.png';
-import MyDetails2 from '@/components/MyDetails2';
+import MyDetails2 from '@/components/MyDetails/MyDetails2';
 import { MdArrowOutward } from 'react-icons/md';
 import Testimonial from '@/components/Testimonial/Testimonial';
 import Brand from '@/components/Brand/Brand';
@@ -61,7 +61,7 @@ const page = () => {
         
       </section>
 
-      <section className="py-24 md:py-32">
+      <section className="py-24 md:py-32 bg-white">
       <div className="container mx-auto px-4">
 
         <div className="grid grid-cols-12 gap-6 2xl:gap-0 mb-12 items-center">
@@ -220,7 +220,7 @@ const page = () => {
 
     {/* Hello sec start */}    
 
-    <section className=' pb-[50px]'>
+    <section className=' pb-[50px] bg-white'>
       <div className='container grid grid-cols-2 justify-between'>
           
           <div className=''>
@@ -343,7 +343,7 @@ const page = () => {
 
      {/* Brand sec start */}
 
-        <section className='container pb-[50px]'>
+        <section className='container pb-[50px] bg-white'>
           <div className='py-10 border-b-[1px] border-t-[1px] border-[#0808081A]'>
             <Brand/>
           </div>
@@ -361,7 +361,7 @@ const page = () => {
 
       {/* Stay chill sec start */}  
 
-        <section className="bg-white pb-[120px]">
+    <section className="bg-white pb-[120px]">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-12">
           <div className="col-span-12">

@@ -9,7 +9,7 @@ import { MdArrowOutward } from "react-icons/md";
 
 const Blog1 = () => {
   return (
-    <section className="pb-[80px] sm:pb-[120px]  mt-20">
+    <section className="pb-[80px] sm:pb-[120px] bg-white  mt-20">
       <div className="container">
         <div className="flex flex-col items-center">
           <div className="pb-12">

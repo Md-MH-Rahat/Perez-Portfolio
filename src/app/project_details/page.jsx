@@ -66,7 +66,7 @@ const page = () => {
         </div>
       </section>
 
-      <section className="bg-[#ffff] pt-[200px] md:pt-[322px]">
+      <section className="bg-white pt-[200px] md:pt-[322px]">
         <div className="container">
           <div className="max-w-[1075px] mx-auto text-center md:text-left">
             <div>

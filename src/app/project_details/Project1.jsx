@@ -6,7 +6,7 @@ import { MdArrowOutward } from "react-icons/md";
 
 const Project1 = () => {
   return (
-    <section className="py-[100px]">
+    <section className="py-[100px] bg-white">
       <div className="container">
         <div>
           <div className="text-center pb-8">
