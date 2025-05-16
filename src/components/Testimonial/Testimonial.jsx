@@ -6,7 +6,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import jhon from "@/components/Testimonial/Image/jhon.png"
-import coma from "@/components/Testimonial/Image/coma.png"
+import comaImage from "@/components/Testimonial/Image/coma.png"
 import "@/components/Testimonial/testimonial.css"
 
 const Testimonial = () => {
@@ -20,7 +20,7 @@ const Testimonial = () => {
       <div>
        <Swiper watchSlidesProgress={true} slidesPerView={3} className="mySwiper">
         <SwiperSlide className='pr-[20px]'>
-          <Image src={coma} alt='coma' className='pb-[40px]'/>
+          <Image src={comaImage} alt='coma' className='pb-[40px]'/>
           <p className='font-syne font-bold text-[20px leading-7 text-[#080808CC] pb-6'>“Energistically build alternative scenarios via cross-unit applications. Credibly exploit one-to-one strategic theme areas and clicks-and-mortar services”</p>
           <h4 className='flex items-center font-[800] text-[18px] leading-7 text-[#080808] font-syne '> 
             <span>
@@ -30,7 +30,7 @@ const Testimonial = () => {
           </h4>
         </SwiperSlide>
         <SwiperSlide className='pr-[20px]'>
-          <Image src={coma} alt='coma' className='pb-[40px]'/>
+          <Image src={comaImage} alt='coma' className='pb-[40px]'/>
           <p className='font-syne font-bold text-[20px leading-7 text-[#080808CC] pb-6'>“Energistically build alternative scenarios via cross-unit applications. Credibly exploit one-to-one strategic theme areas and clicks-and-mortar services”</p>
           <h4 className='flex items-center font-[800] text-[18px] leading-7 text-[#080808] font-syne '> 
             <span>
@@ -40,7 +40,7 @@ const Testimonial = () => {
           </h4>
         </SwiperSlide>
         <SwiperSlide className='pr-[20px]'>
-          <Image src={coma} alt='coma' className='pb-[40px]'/>
+          <Image src={comaImage} alt='coma' className='pb-[40px]'/>
           <p className='font-syne font-bold text-[20px leading-7 text-[#080808CC] pb-6'>“Energistically build alternative scenarios via cross-unit applications. Credibly exploit one-to-one strategic theme areas and clicks-and-mortar services”</p>
           <h4 className='flex items-center font-[800] text-[18px] leading-7 text-[#080808] font-syne '> 
             <span>
@@ -50,7 +50,7 @@ const Testimonial = () => {
           </h4>
         </SwiperSlide>
         <SwiperSlide >
-          <Image src={coma} alt='coma' className='pb-[40px]'/>
+          <Image src={comaImage} alt='coma' className='pb-[40px]'/>
           <p className='font-syne font-bold text-[20px leading-7 text-[#080808CC] pb-6'>“Energistically build alternative scenarios via cross-unit applications. Credibly exploit one-to-one strategic theme areas and clicks-and-mortar services”</p>
           <h4 className='flex items-center font-[800] text-[18px] leading-7 text-[#080808] font-syne '> 
             <span>

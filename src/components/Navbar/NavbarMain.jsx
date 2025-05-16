@@ -18,7 +18,7 @@ const NavBarMain = () => {
   return (
     <nav className='border-[#08080866] border-b-[1px] ml-12 bg-transparent'>
       <div className='flex justify-between'>
-        <a href='/' className='py-6'>
+        <a href='/' className='py-6 '>
           <Image className='logoimg' src={Logo} alt="Logo" />
         </a>
         <div className='flex'>

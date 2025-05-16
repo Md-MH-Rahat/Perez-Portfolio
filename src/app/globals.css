@@ -33,9 +33,7 @@ body {
   @apply max-w-[1296px] mx-auto px-4;
 }
 
-.talk-link{
-  font-size: clamp(12px, 1.5vw, 15px);
-}
+
 .talk-link:hover {
   color: #FFB646;
 }
@@ -109,4 +107,49 @@ body {
     right: 0;
     width: 41%;
     height: 100%;
+}
+
+
+.talk-link2{
+  font-size: clamp(12px, 1.5vw, 15px);
+}
+.talk-link2:hover {
+  color: white;
+}
+
+.talk-link2:hover .arrow-icon {
+  animation: arrowPop 0.6s ease-in-out;
+}
+
+
+.marksun{
+  position: relative;
+}
+
+.marksun::before{
+  content: "";
+  background: #FFB646;
+  position: absolute;
+  border-radius: 100%;
+  width: 120px;
+  height: 120px;
+  left: 2px;
+  top: 24px;
+  z-index: -1;
+}
+
+.marksun2{
+  position: relative;
+}
+
+.marksun2::before{
+  content: "";
+  background: #FFB646;
+  position: absolute;
+  border-radius: 100%;
+  width: 64px;
+  height: 64px;
+  left: 1px;
+  top: 10px;
+  z-index: -1;
 }
