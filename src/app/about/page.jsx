@@ -54,8 +54,8 @@ const page = () => {
               </li>
             </ul>
           </div>
-          <div className='pt-[174px]'>
-            <h2 className='font-syne font-bold text-[80px] leading-[88px] sun pb-7'>12+</h2>
+          <div className='pt-[266px]'>
+            <h2 className='font-syne font-bold text-[80px] leading-[88px] relative after:absolute after:bg-[#FFB646] after:size-[112px] after:rounded-full after:top-[-10px] after:left-[-10px] z-[4] after:z-[-4] pb-7'>12+</h2>
             <h3 className=' strock-text pb-12'>Years of <br />experience</h3>
             <button className='w-[636px] h-[122px] rounded-[16px]  cursor-pointer bg-black animation duration-300 group'>
               <p className='text-orange-400 font-sans font-normal text-[18px] leading-7 text-start pt-[24px] pl-[24px] pb-[8px]'>SAY HELLO!</p>

@@ -220,35 +220,35 @@ const page = () => {
 
     {/* Hello sec start */}    
 
-    <section className=' pb-[50px] bg-white'>
+    <section className=' pb-[50px] bg-white '>
       <div className='container grid grid-cols-2 justify-between'>
           
           <div className=''>
             <div className='pb-[24px]'>
               <Image src={about4} alt='image'/>
             </div>
-            <div className='pl-[30%]'>
-              <h2 className='font-syne font-bold text-[80px] leading-[88px] sun pb-7'>12+</h2>
-              <h3 className=' strock-text pb-12'>Years of <br />experience</h3>
+            <div className='pl-[25%]'>
+              <h2 className='font-syne font-bold text-[80px]  leading-[88px] text-[#080808] relative after:absolute after:bg-[#FFB646] after:size-[112px] after:rounded-full after:top-[-10px] after:right-[375px] z-[4] after:z-[-4] pb-7'>12+</h2>
+              <h3 className=' strock-text2 pb-12'>Years of <br />experience</h3>
             </div>
           </div>
           <div className='w-[526px]'>
             <p className='font-syne font-bold text-[20px]  text-[#FF9330]'>Hello I'm</p>
-            <h2 className='font-syne font-bold text-[64px]  pb-[24px]'><span className='marksun2'>Mark</span> Henry, Product Designer</h2>
+            <h2 className='font-syne font-bold text-[64px] text-black  pb-[24px]'><span className='marksun2'>Mark</span> Henry, Product Designer</h2>
             <p className='font-sans text-[18px] leading-7 text-[#08080899] pb-[43px]'>That is where I come in. A lover of words, a wrangler of copy. Here to create copy that not only reflects who you are and what you stand for, but words that truly land with those that read them, calling your audience in and making
             them want more.</p>
             <ul className='flex gap-[41px] pb-[108px]'>
               <li>
-                <h3 className='font-syne font-bold text-[32px] leading-10'>08</h3>
-                <p className='font-sans text-[18px] leading-7'>Award winner</p>
+                <h3 className='font-syne font-bold text-[32px] text-[#080808] leading-10'>08</h3>
+                <p className='font-sans text-[18px] text-[#08080899] leading-7'>Award winner</p>
               </li>
               <li>
-                <h3 className='font-syne font-bold text-[32px] leading-10'>1.2k</h3>
-                <p className='font-sans text-[18px] leading-7'>Worldwide client</p>
+                <h3 className='font-syne font-bold text-[32px] text-[#080808] leading-10'>1.2k</h3>
+                <p className='font-sans text-[18px] text-[#08080899] leading-7'>Worldwide client</p>
               </li>
               <li>
-                <h3 className='font-syne font-bold text-[32px] leading-10'>3.5k</h3>
-                <p className='font-sans text-[18px] leading-7'>Job done successfully</p>
+                <h3 className='font-syne font-bold text-[32px] text-[#080808] leading-10'>3.5k</h3>
+                <p className='font-sans text-[18px] text-[#08080899] leading-7'>Job done successfully</p>
               </li>
             </ul>
             <Contactbtn label='Download my resume' className='w-[253px] h-[56px]'/>
