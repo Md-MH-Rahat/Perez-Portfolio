@@ -16,7 +16,7 @@ const NavBarMain = () => {
   };
   
   return (
-    <nav className='border-[#08080866] border-b-[1px] ml-12 bg-transparent'>
+    <nav className='border-[#08080866] border-b-[1px] pl-12 bg-white'>
       <div className='flex justify-between'>
         <a href='/' className='py-6 '>
           <Image className='logoimg' src={Logo} alt="Logo" />
@@ -25,7 +25,7 @@ const NavBarMain = () => {
           <div>
             <button 
               onClick={handleClick}
-              className='flex items-center mt-1.5 py-6 px-[41px] gap-2 talk-link duration-300 group font-sans font-bold text-[15px] cursor-pointer'
+              className='flex text-black items-center mt-1.5 py-6 px-[41px] gap-2 talk-link duration-300 group font-sans font-bold text-[15px] cursor-pointer'
             >
               <p>Let's Talk</p>
               <span className='arrow-icon text-[17px]'>

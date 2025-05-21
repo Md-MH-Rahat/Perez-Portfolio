@@ -15,7 +15,7 @@ const Testimonial = () => {
       <div className='grid grid-cols-2'>
       <div className='pl-[250px]'>
         <p className='font-syne font-bold text-[20px] leading-7 text-[#FF9330]'>Testimonial</p>
-        <h4 className='font-syne font-bold text-[64px] leading-[72px] test'>Client <br /> feedback</h4>
+        <h4 className='font-syne font-bold text-[64px] text-black leading-[72px] test'>Client <br /> feedback</h4>
       </div>
       <div>
        <Swiper watchSlidesProgress={true} slidesPerView={3} className="mySwiper">

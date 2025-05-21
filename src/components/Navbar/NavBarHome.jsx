@@ -25,7 +25,7 @@ const NavBarMain = () => {
           <div>
             <button 
               onClick={handleClick}
-              className='flex items-center mt-1.5 py-6 px-[41px] gap-2 talk-link2 duration-300 group font-sans font-bold text-[15px] cursor-pointer'
+              className='flex text-black items-center mt-1.5 py-6 px-[41px] gap-2 talk-link2 duration-300 group font-sans font-bold text-[15px] cursor-pointer'
             >
               <p>Let's Talk</p>
               <span className='arrow-icon text-[17px]'>

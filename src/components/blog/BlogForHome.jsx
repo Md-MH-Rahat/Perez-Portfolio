@@ -16,7 +16,7 @@ const BlogForHome = () => {
           <div className="pb-12">
             <div className="font-syne text-center font-bold pb-12">
               <p className="text-[#FF9330] text-[16px] sm:text-[20px]">Blog</p>
-              <h2 className="text-[32px] sm:text-[64px] relative after:absolute after:rounded-full after:size-[32px] sm:after:size-[64px] after:top-[6px] sm:after:top-[18px] after:right-[140px] sm:after:right-[480px] after:bg-[#FFB646] z-[20] after:z-[-32]">
+              <h2 className="text-[32px] text-black sm:text-[64px] relative after:absolute after:rounded-full after:size-[32px] sm:after:size-[64px] after:top-[6px] sm:after:top-[18px] after:right-[140px] sm:after:right-[480px] after:bg-[#FFB646] z-[20] after:z-[-32]">
                 My blog post
               </h2>
             </div>
@@ -39,12 +39,12 @@ const BlogForHome = () => {
                       <p>03 May 2019</p>
                     </span>
                   </div>
-                  <div className="flex justify-between items-end hover:text-[#FF9330] transition duration-700">
-                    <p className="text-xl sm:text-2xl font-syne font-bold">
+                  <div className="flex justify-between items-end text-black hover:text-[#FF9330] transition duration-700">
+                    <p className="text-xl  sm:text-2xl font-syne font-bold">
                       Right-lo-left behind development in mobile web design
                     </p>
                     <span>
-                      <MdArrowOutward className="w-6 sm:w-8 h-6 sm:h-8" />
+                      <MdArrowOutward className="w-6  sm:w-8 h-6 sm:h-8" />
                     </span>
                   </div>
                 </div>
@@ -66,12 +66,12 @@ const BlogForHome = () => {
                       <p>03 May 2019</p>
                     </span>
                   </div>
-                  <div className="flex justify-between items-end hover:text-[#FF9330] transition duration-700">
-                    <p className="text-xl sm:text-2xl font-syne font-bold">
+                  <div className="flex justify-between items-end text-black hover:text-[#FF9330] transition duration-700">
+                    <p className="text-xl  sm:text-2xl font-syne font-bold">
                       Connect craft: Reading the smart experiencen
                     </p>
                     <span>
-                      <MdArrowOutward className="w-6 sm:w-8 h-6 sm:h-8" />
+                      <MdArrowOutward className="w-6  sm:w-8 h-6 sm:h-8" />
                     </span>
                   </div>
                 </div>
@@ -93,12 +93,12 @@ const BlogForHome = () => {
                       <p>03 May 2019</p>
                     </span>
                   </div>
-                  <div className="flex justify-between items-end hover:text-[#FF9330] transition duration-700">
-                    <p className="text-xl sm:text-2xl font-syne font-bold">
+                  <div className="flex justify-between items-end text-black hover:text-[#FF9330] transition duration-700">
+                    <p className="text-xl  sm:text-2xl font-syne font-bold">
                       Ecoglow: Sustainable skincare a brighter tomorrow
                     </p>
                     <span>
-                      <MdArrowOutward className="w-6 sm:w-8 h-6 sm:h-8" />
+                      <MdArrowOutward className="w-6  sm:w-8 h-6 sm:h-8" />
                     </span>
                   </div>
                 </div>
@@ -120,12 +120,12 @@ const BlogForHome = () => {
                       <p>03 May 2019</p>
                     </span>
                   </div>
-                  <div className="flex justify-between items-end hover:text-[#FF9330] transition duration-700">
-                    <p className="text-xl sm:text-2xl font-syne font-bold">
+                  <div className="flex justify-between items-end text-black hover:text-[#FF9330] transition duration-700">
+                    <p className="text-xl  sm:text-2xl font-syne font-bold">
                       Right-lo-left behind development in mobile web design
                     </p>
                     <span>
-                      <MdArrowOutward className="w-6 sm:w-8 h-6 sm:h-8" />
+                      <MdArrowOutward className="w-6  sm:w-8 h-6 sm:h-8" />
                     </span>
                   </div>
                 </div>

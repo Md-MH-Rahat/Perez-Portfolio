@@ -23,7 +23,7 @@ import BlogForHome from '@/components/blog/BlogForHome';
 
 const page = () => {
   return (
-    <main className='relative top-0 left-0 w-full '>
+    <main className='relative top-0 left-0 w-full bg-white'>
       <section className='bg-[#FFE9D9]  banner'>
         <div className='flex justify-between items-center h-full container'>
           <div className='pt-[140px]'>
@@ -262,7 +262,7 @@ const page = () => {
 
     {/* MyDetails sec start */}
 
-    <section className=' bg-[#0808080A] pt-[50px] pb-[50px]'>
+    <section className=' bg-white pt-[50px] pb-[50px]'>
       <div className='container'>
         <MyDetails2/>
       </div>
@@ -280,7 +280,7 @@ const page = () => {
                   <p className="text-[#FF9330] font-bold text-[20px] font-syne">
                     Portfolio
                   </p>
-                  <h2 className="text-[64px] font-bold font-syne relative after:absolute after:bg-[#FFB646] after:size-[64px] after:rounded-full after:top-[12px] after:right-[450px] z-[4] after:z-[-4]">
+                  <h2 className="text-[64px] text-black font-bold font-syne relative after:absolute after:bg-[#FFB646] after:size-[64px] after:rounded-full after:top-[12px] after:right-[450px] z-[4] after:z-[-4]">
                     My related work
                   </h2>
                 </div>
@@ -296,7 +296,7 @@ const page = () => {
                       </button>
                     </div>
                     <div>
-                      <a className="flex justify-between mb-12 py-5 rounded-2xl text-[32px] font-bold font-syne leading-[40px] hover:duration-75 hover:text-[#FF9330] duration-75 items-center ">
+                      <a className="flex justify-between mb-12 py-5 rounded-2xl text-[32px] text-black font-bold font-syne leading-[40px] hover:duration-75 hover:text-[#FF9330] duration-75 items-center ">
                         Basinik Finance App{" "}
                         <span>
                           <MdArrowOutward />
@@ -315,7 +315,7 @@ const page = () => {
                       </button>
                     </div>
                     <div>
-                      <a className="flex justify-between mb-12 py-5 rounded-2xl text-[32px] font-bold font-syne leading-[40px] hover:duration-75 hover:text-[#FF9330] duration-75 items-center ">
+                      <a className="flex justify-between mb-12 py-5 rounded-2xl text-[32px] text-black font-bold font-syne leading-[40px] hover:duration-75 hover:text-[#FF9330] duration-75 items-center ">
                         Oxilex Dashboard design{" "}
                         <span>
                           <MdArrowOutward />

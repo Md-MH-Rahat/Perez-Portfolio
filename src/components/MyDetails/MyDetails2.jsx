@@ -27,7 +27,7 @@ export default function MyDetails2() {
       {/* Tab Buttons */}
       <div className='pt-[50px]'>
         <p className='font-syne font-bold text-[20px]  text-[#FF9330]'>Resume</p>
-            <h2 className='font-syne font-bold text-[64px] w-[416px] pb-[24px]'><span className='marksun2'>All</span>  over my details find here...</h2>
+            <h2 className='font-syne font-bold text-[64px] text-black w-[416px] pb-[24px]'><span className='marksun2'>All</span>  over my details find here...</h2>
         <div className=" flex flex-wrap flex-col gap-2   ">
         {tabs.map(tab => (
           <button
@@ -51,7 +51,7 @@ export default function MyDetails2() {
         {activeTab === 'about' && (
           <div className="">
             <div>
-              <h3 className='font-bold font-syne text-[32px] pt-[50px] pb-[32px]'>
+              <h3 className='font-bold text-black font-syne text-[32px] pt-[50px] pb-[32px]'>
                 Product Designer
               </h3>
               <p className='text-[#08080899] text-[18px] pb-[30px] font-sans leading-[28px] w-[530px]'>Mark Henry, <span className='text-[#080808]'>Product Designer</span>, based in German. That is where I come in. A lover of words, a wrangler of copy. Here to create copy that not only reflects who you are and what you stand for,</p>
@@ -159,7 +159,7 @@ export default function MyDetails2() {
 
         {activeTab === 'education' && (
           <div className='pb-[100px]'>
-            <h3 className='font-bold font-syne text-[32px] pt-[50px] pb-[32px]'>Education</h3>
+            <h3 className='font-bold text-black font-syne text-[32px] pt-[50px] pb-[32px]'>Education</h3>
             <div className='grid grid-cols-1 gap-6'>
               <div className="pt-[30px] px-7 pb-7 bg-[#0808080A] rounded-2xl transition-all hover:shadow-2xl hover:bg-white flex flex-wrap gap-[104px]">
                 <span className="text-sm font-normal font-sans leading-tight text-[#080808CC]">
